@@ -350,88 +350,106 @@ iframe {
 
 @media (min-width: 1043px) {
 
-    .container {
-        grid-template-columns: repeat(2, 550px);
-        display: grid;
-
-    }
-
-    .frames {
-        width: 100%;
-        margin: 0;
-        padding: 10px;
-        grid-template-columns: repeat(2, 500px);
-        display: grid;
-        justify-content: center;
-        align-items: auto;
-        align-content: start;
-    }
-
-    iframe {
-        width: 90%;
-        padding: 12px;
-        margin: 0;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: center;
-        align-items: auto;
-        align-content: start;
-
-    }
-
-    .episodios {
-        width: auto;
-        margin: 0;
-        padding: 0;
-        background: black;
-    }
-.container {
-    padding: 1% 8% 0 8%;
-    /*arriba y abajo, laterales*/
+ .container {
+    padding: 5%;
+    arriba y abajo, laterales
     max-width: 100%;
     box-sizing: border-box;
     margin: 0;
+     position: relative;
+     top: -40px;
 }
 
-/*Icono*/
-.col-1 img {
-    width: 40px;
-    height: 40px;
+    .col-1 img {
+        Icono
+        width: 40px;
+        height: 40px; 
+    }
+
+    .col-11 label {
+        icono del menu
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        width: 100%;
+        padding: -1%;    
+        justify-content: flex-end;
+    }
+
+    .menu ul {
+        width: auto;
+        display: flex;
+        align-self: flex-end;
+        background: none;
+        color: blue;
+    }
+
+    .menu li {
+        color: blue;
+    }
+    /*
+    p {
+    font-family: "IBM Plex Mono";
+    font-size: 14px;
+    color: red;
+    letter-spacing: 0;
+    line-height: 22px;
 }
 
-header label {
-    display: none;
+    .container {
+    grid-template-columns: repeat(2, 550px);
+    display: grid;
+
 }
 
-.menu {
-    display: flex;
+    .frames {
     width: 100%;
-    justify-content: flex-end;
+    margin: 0;
+    padding: 10px;
+    grid-template-columns: repeat(2, 500px);
+    display: grid;
+    justify-content: center;
+    align-items: auto;
+    align-content: start;
 }
 
-.menu ul {
-    width: auto;
+    iframe {
+    width: 90%;
+    padding: 12px;
+    margin: 0;
     display: flex;
-    align-self: flex-end;
-    background: none;
-    color: blue;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: auto;
+    align-content: start;
+
 }
 
-.menu li {
-    color: blue;
+    .episodios {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background: black;
 }
 
-body {
+
+
+
+
+
+    body {
     background: pink;
 }
 
-col-12,
-h1 br {
+    col-12,
+    h1 br {
     display: none;
 }
 
-.col-12 button {
+    .col-12 button {
     width: 15%;
 }
 
@@ -444,19 +462,5 @@ h1 br {
 
 }
 
-/*---------------------iframe4---------------------*/
-
-
-    
-    
-
-    /*
-iframe 2
-    margin: 0;
-    padding: 2 3px 2 3px;
-    width: 80%;
-
-}
-*/
-
+    */
 }
