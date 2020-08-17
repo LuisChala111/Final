@@ -530,12 +530,12 @@ iframe {
         top: -600px;
     }
 
-    .contenedor3 h1 br{
+    .contenedor3 h1 br     {
         display: none;
         position: absolute;
 
     }
-    .contenedor3 h1{
+    .contenedor3 h1 {
         color: green;
         margin: 0;
         padding: 0;
@@ -544,26 +544,33 @@ iframe {
         left: 210px;
         top: -520px;
     }
-
-    .contenedor4{
-        background: green;
-        width: 100%;
-        height:100%;
+    
+    .contenedor4 row{
+        padding: 10px;
+        margin: 10px;
+     max-width: 200px;
+        background: red;
+                
     }
 
 
     .contenedor4 img {
         margin: 0px;
         padding: 0px;
-        width: 30%;
-        height: 30%;
-        position: relative;
-        right: -7px;
-     
+        width: 33.3%;
+        height: 33.3%;
+        overflow: hidden;
     }
 
 
     /*
+     .contenedor4 {
+        width: 100%;
+        height:100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    
 
     .contenedor2 p{
     color: green;
